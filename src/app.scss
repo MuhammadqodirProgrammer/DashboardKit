@@ -1,0 +1,29 @@
+
+
+.box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+
+}
+
+.box_left{
+    width: 20%;
+    background: #363740;
+    // height: 100vh;
+}
+.box_right{
+    width: 80%;
+   
+    // height: 100vh;
+}
+li{
+    list-style: none;
+
+}
+.task-row{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}

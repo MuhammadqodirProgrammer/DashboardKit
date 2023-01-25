@@ -1,0 +1,33 @@
+
+.Trend_box{
+    margin-top: 30px;
+    display: flex;
+    align-items: stretch;
+    background: #FFFFFF;
+    border: 1px solid #DFE0EB;
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+.trend_left-boxs{
+    width: 70%;
+    padding: 0 15px;
+
+}
+.trend_right-boxs{
+    width: 30%;
+    border-left: 1px solid #DFE0EB;
+}
+.trend_text{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.trend_right-box{
+    text-align: center;
+    border-bottom: 1px solid #DFE0EB;
+    
+}
+

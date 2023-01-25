@@ -1,0 +1,26 @@
+
+.header_boxs{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+
+}
+.header_box{
+    display: flex;
+    align-items: center;
+    // justify-content: center;
+    // gap: 20px;
+    flex-direction: column;
+    background: #FFFFFF;
+    border: 1px solid #DFE0EB;
+    // padding: 24px 32px;
+    height: 134px;
+    width: 228px;
+padding-top: 10px;
+    border-radius: 8px;
+    &:hover{
+        border: 1px solid #3751FF;
+        color: #3751FF;
+    }
+}

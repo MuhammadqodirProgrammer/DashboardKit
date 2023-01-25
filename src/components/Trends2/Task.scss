@@ -1,0 +1,26 @@
+
+.task-boxs{
+    // margin-top: 30px;
+    display: flex;
+    align-items: stretch;
+    
+    margin-left: 5px;
+    margin-bottom: 30px;
+    // width: 100%;
+}
+.task_left-boxs{
+    // width: 50%;
+    width: 380px;
+    height: 369px;
+    background: #FFFFFF;
+    border: 1px solid #DFE0EB;
+    border-radius: 8px;
+    padding: 10px;
+}
+.task_left-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    border-bottom: 1px solid #DFE0EB;
+}
