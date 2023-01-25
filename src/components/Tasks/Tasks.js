@@ -20,6 +20,9 @@ const Tasks = () => {
 
   const handleTaskSubmit = (evt) => {
     evt.preventDefault();
+    if(tasks.length >= 3){
+      tasks.shift()
+    }
     const task = [
       ...tasks,
       {
