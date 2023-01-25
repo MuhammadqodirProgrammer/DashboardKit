@@ -11,7 +11,7 @@
 .task_left-boxs{
     // width: 50%;
     width: 380px;
-    height: 369px;
+    height: 349px;
     background: #FFFFFF;
     border: 1px solid #DFE0EB;
     border-radius: 8px;
@@ -21,6 +21,15 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 10px;
+    padding: 1px 10px;
     border-bottom: 1px solid #DFE0EB;
+}
+.task_left-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: #3751FF;
 }
